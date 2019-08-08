@@ -17,7 +17,6 @@ def subsetExists(arr):
     for x in range(listSize):
         currentItem = arr[x]
         currSum += currentItem
-        print(currSum)
         arr.pop(x)
         #call recursive function on this
         if(findSubsetRecurse(currSum, arr, memoiDict)):

@@ -66,10 +66,10 @@ if __name__=="__main__":
     puzzle3 = [['A']]
     puzzle4 = [[], [], []]
     puzzle5 = [['D', 'R', 'E'], ['E', 'N', 'Z'], ['R', 'E', 'D']]
-    assert findWordInPuzzle(puzzle1, "FOAM") == True, "THERE'S AN ERROR IN YOUR LOGIC"
-    assert findWordInPuzzle(puzzle2, "MINE") == False, "THERE'S AN ERROR IN YOUR LOGIC"
-    assert findWordInPuzzle(puzzle3, "A") == True, "THERE'S AN ERROR IN YOUR LOGIC"
-    assert findWordInPuzzle(puzzle4, "ANY") == False, "THERE'S AN ERROR IN YOUR LOGIC"
-    assert findWordInPuzzle(puzzle5, "RED") == True, "THERE'S AN ERROR IN YOUR LOGIC"
+    assert findWordInPuzzle(puzzle1, "FOAM") == True, "ERROR IN LOGIC"
+    assert findWordInPuzzle(puzzle2, "MINE") == False, "ERROR IN LOGIC"
+    assert findWordInPuzzle(puzzle3, "A") == True, "ERROR IN LOGIC"
+    assert findWordInPuzzle(puzzle4, "ANY") == False, "ERROR IN LOGIC"
+    assert findWordInPuzzle(puzzle5, "RED") == True, "ERROR IN LOGIC"
         
             
